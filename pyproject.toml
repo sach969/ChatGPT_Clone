@@ -1,0 +1,31 @@
+[project]
+name = "venv"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Sachingrewal969",email = "sachingrewal969@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)",
+    "uvicorn (>=0.34.2,<0.35.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "sqlalchemy (>=2.0.41,<3.0.0)",
+    "alembic (>=1.16.1,<2.0.0)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)",
+    "pgvector (>=0.4.1,<0.5.0)",
+    "python-jose[cryptography] (>=3.5.0,<4.0.0)",
+    "passlib[bcrypt] (>=1.7.4,<2.0.0)",
+    "langchain (>=0.3.25,<0.4.0)",
+    "langserve (>=0.3.1,<0.4.0)",
+    "langchain-community (>=0.3.24,<0.4.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "langchain-google-genai (>=2.1.5,<3.0.0)",
+    "streamlit (>=1.45.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

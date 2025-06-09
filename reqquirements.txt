@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-dotenv
+sqlalchemy
+alembic
+psycopg2-binary
+pgvector
+python-jose[cryptography]
+passlib[bcrypt]
+langchain
+langserve
+langchain-community
+httpx
+google-generativeai
+streamlit
